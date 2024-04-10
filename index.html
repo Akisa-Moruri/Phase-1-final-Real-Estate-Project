@@ -7,6 +7,9 @@
     
     <!-- Style sheet Link -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap icons Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
     <!-- Font-Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -16,99 +19,95 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#"><strong>Atlas home</strong><br>Real Estate</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"></a>
+      <img src="./images/logo.png" alt="logo" class="w-3">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto ms-auto mb-2 mg-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Services">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#Contact">Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn text-white bg-dark px-3 rounded-0" href="#">Contact Us</a>
+          </li>
+
+        
+          </li>
+         
+        </ul>
+        
+         
+        
+      </div>
     </div>
-</nav>
+  </nav>
+<!--End of navbar-->
 
-<div id="carouselExampleIndicators" class="carousel slide mx-5 my-3" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="./images/property1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./images/property2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="./images/property3.jpg" class="d-block w-100" alt="...">
-        </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+<!---->      
 
-<div class="row row-cols-1 row-cols-md-2 g-4 mx-5 my-3">
-
-
-
-<!--property4-->
-    <div class="col h-50" style="width: 36rem;">
-      <div class="property4">
-
-
-
-
-        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mx-5 my-3" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/property4.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/property1.jpg" class="d-block w-100 w-100-height" alt="property1">
+                    <div class="carousel-caption carousel1">
+                        <p>Always Dedicated</p>
+                        <h5>Discover Property <br>More Easily</h5>
+                        <p><a href="#" class="btn btn-warning mt-3">Learn more</a></p>
+                        
+                        
+ 
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./images/4a.jpg" class="d-block w-100" alt="...">
+
+
+                <div class="carousel-item active">
+                    <img src="./images/property2.jpg" class="d-block w-100 w-100-height" alt="property2">
+                    <div class="carousel-caption carousel2">
+                        <p></p>
+                        <h5>Atlas Homes<br>For Our Future<br>Generation</h5>
+                        
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./images/4b.jpg" class="d-block w-100" alt="...">
+
+
+
+                <div class="carousel-item active">
+                    <img src="./images/property3.jpg" class="d-block w-100 w-100-height" alt="property3">
+                    <div class="carousel-caption carousel3">
+                        <p></p>
+                        <h5>Property Buying<br>and Selling<br>Guides</h5>
+                        
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./images/4c.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/4d.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/4e.jpg" class="d-block w-100" alt="...">
-                </div>
+
             </div>
+            
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -120,174 +119,339 @@
         </div>
 
 
+<!---->
 
 
-
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
-
-
-
-<!--property5-->
-    <div class="col h-50" style="width: 36rem;">
-      <div class="property5">
-
-
-
-        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/property5.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/5a.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/5b.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/5c.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/5d.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/5e.jpg" class="d-block w-100" alt="...">
+<!--About section-->
+        <section id="about" class="about section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <div class="about-img">
+                            <img src="./images/property5.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                        <div class="about-text">
+                            <h2>We provide best quality services</h2>
+                            <p>Welcome to our real estate blog, where we delve into the latest trends, insights, and tips shaping the dynamic world of property ownership and investment. Whether you're a first-time homebuyer, a seasoned investor, or simply curious about the housing market, our blog serves as your comprehensive resource. Discover expert advice on navigating the buying and selling process, stay updated on market fluctuations and emerging neighborhoods, and gain valuable insights into maximizing your property's potential. From practical guides to in-depth analysis, we cover a wide range of topics to empower you with the knowledge needed to make informed decisions in the ever-evolving real estate landscape. Join us on this journey as we explore the exciting opportunities and challenges of the real estate market together.</p>
+                            <a href="#" class="btn btn-warning">Learn More</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
+<!--End of About section-->
 
 
+<!--Services section-->
+        <section id="services" class="services section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-header text-center pb-5">
+                            <h2>Our Services</h2>
+                            <p>Kwao Real Estate Company offers a comprehensive range of services tailored to meet the diverse needs of its clients. From property buying, selling, and renting to property management and investment consultancy, Kwao Real Estate Company provides expert guidance and support throughout the entire real estate journey. With a team of experienced agents, personalized attention, and a deep understanding of the local market trends, the company ensures that clients receive top-notch service and achieve their real estate goals efficiently. Whether it's finding the perfect dream home, maximizing returns on investments, or navigating complex transactions, Kwao Real Estate Company is dedicated to delivering exceptional service and exceeding client expectations in every aspect of the real estate experience</p>
 
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        </div>
-      </div>
-    </div>
+                        </div>
 
+                    </div>
 
-<!--property6-->
-    <div class="col h-50" style="width: 36rem;">
-      <div class="property6">
-
-
-
-        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/property6.jpg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                    <img src="./images/6a.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/6b.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/6c.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/6d.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/6e.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            <i class="fa fa-thumbs-up"></i>
-        </div>        
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card text-white text-center bg-dark pb-2">
+                            <div class="card-body">
+                                <i class="bi bi-subtract"></i>
+                                <h3 class="Best quality"></h3>
+                                <p class="lead">A World-class masterpiece designed for the chosen few who value space and comfort to create timeless memories with your loved ones. It’s strategic location, just off Nairobi-Namanga Road offers you a unique selection of 3 and 4 bedroom apartments with 360 degree panoramic views.</p>
+                                <a href="#" class="btn btn-warning">Learn More</a>
 
+                            </div>
 
+                        </div>
 
+                    </div>
 
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-        </div>
-      </div>
-    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-stripe"></i>
+                                    <h3 class="Sustainability"></h3>
+                                    <p class="lead">Kwao Homes is the area where everything is for feeling yourself special. Low intensity development, panoramic views and ecologically clean environment will provide harmony for your everyday life.Kwao Homes is the real deal for every customer need and comfort.</p>
+                                    <a href="#" class="btn btn-warning">Learn More</a>
     
-  </div>
-
-
-
-
-
-  <!-- Remove the container if you want to extend the Footer to full width. -->
-<!-- <div class="container"> -->
-
-    <footer class="text-center text-lg-start" style="background-color: #000000;">
-      <div class="container d-flex justify-content-center py-5">
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <i class="fab fa-facebook-f"></i>
-        </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <i class="fab fa-youtube"></i>
-        </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <i class="fab fa-instagram"></i>
-        </button>
-        <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
-          <i class="fab fa-twitter"></i>
-        </button>
-      </div>
-  
-      <!-- Copyright -->
-      <div class="text-center text-white p-3" style="background-color: rgba(7, 6, 6, 0.2);">
-        © 2024 Copyright:
-        <a class="text-white" href="https://www.atlashome.com/">Atlashome.com</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
+                                </div>
     
-  <!-- </div> -->
-  <!-- End of .container -->
+                            </div>
+    
+                        </div>
+
+                        <div class="col-12 col-md-12 col-lg-4">
+                            <div class="card text-white text-center bg-dark pb-2">
+                                <div class="card-body">
+                                    <i class="bi bi-strava"></i>
+                                    <h3 class="Integrity"></h3>
+                                    <p class="lead">Kwao Homes is the area where you are closest to the nature. Apartments and recreation spaces built by energo-effective materials offer the comfort in one large space. This is the best place to feel freedom, history and modern lifestyle.You ask, we deliver on time as always been our culture.</p>
+                                    <a href="#" class="btn btn-warning">Learn More</a>
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+
+                </div>
+
+            </div>
+
+        </section>
 
 
-<!-- Your additional content here -->
+<!--End of Services section-->
 
-<!-- Bootstrap JavaScript Bundle with Popper -->
-<!-- Bootstrap JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
 
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--Portfolio section-->
+            <section id="portfolio" class="portfolio section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-header text-center pb-5">
+                                <h2>Our Projects</h2>
+                                <p>Kwao Homes Real Estate Company is currently spearheading several ambitious projects aimed at redefining the landscape of urban living. With a focus on innovation, sustainability, and contemporary design, these ongoing projects encompass residential, commercial, and mixed-use developments. From luxurious high-rise condominiums to modern office spaces and vibrant retail hubs, each project is meticulously planned to cater to the evolving needs of modern lifestyles. With a commitment to quality craftsmanship, attention to detail, and adherence to timelines, Kwao Homes Real Estate Company is dedicated to creating dynamic spaces that inspire and enrich the communities they serve. As these projects continue to unfold, they promise to set new benchmarks in architectural excellence and contribute significantly to the growth and development of the regions they inhabit.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/property4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Namanga villa</h5>
+                        <p class="card-text">Winding through the community and presenting a variety of views.Namanga farms drive features legacy estate homes that make grand statements.</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/property6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Kitengela villa</h5>
+                        <p class="card-text">Situates within steps of kitengela and amenities.The villas put you right in the midst of everything that makes Kajiado farms the area's top club community</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                    <div class="col">
+                    <div class="card h-100">
+                        <img src="./images/4b.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Isinya villa</h5>
+                        <p class="card-text">The epitome of Northern Isinya horse sub-county.The Meadows features rolling hills with spectacular views of the bull run mountains</p>
+                        </div>
+                        
+                    </div>
+                    </div>
+                </div>
+            </section>
+            
+<!--End of Portfolio section-->
+
+
+<!--Team section-->
+            <section id="class" class="team section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-header text-center pb-5">
+                                <h2>Our Team</h2>
+                                <p>The contact team at Kwao Homes Real Estate Company comprises a dedicated group of professionals committed to providing unparalleled support and assistance to clients at every stage of their real estate journey. With extensive knowledge of the local market, exceptional communication skills, and a customer-centric approach, the contact team serves as the primary point of contact for inquiries, consultations, and transactions. Whether clients are seeking information about available properties, scheduling viewings, negotiating deals, or addressing any concerns, the contact team ensures prompt and personalized service tailored to meet individual needs. Their expertise, reliability, and unwavering dedication make them invaluable partners in helping clients achieve their real estate goals with confidence and peace of mind.
+
+
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="./images/Kamau Gikonyo.jpg" alt="" class="img-fluid rounded-circle">
+                                    <h3 class="card-title py-2">Kamau Gikonyo</h3>
+                                    <p class="card-text">With our contact person by your side, you can rest assured that your real estate needs will be met with expertise and care every step of the way.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark mx-1"></i>
+                                        <i class="bi bi-facebook text-dark mx-1"></i>
+                                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                                        <i class="bi bi-instagram text-dark mx-1"></i>
+                                    </p>
+                                    
+    
+                                </div>
+    
+                            </div>
+    
+                        </div>
+
+                        <div class="col-12 col-md-12 col-lg-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="./images/Alex Kinuthia.jpg" alt="" class="img-fluid rounded-circle">
+                                    <h3 class="card-title py-2">Alex kinuthia</h3>
+                                    <p class="card-text">With our contact person by your side, you can rest assured that your real estate needs will be met with expertise and care every step of the way.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark mx-1"></i>
+                                        <i class="bi bi-facebook text-dark mx-1"></i>
+                                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                                        <i class="bi bi-instagram text-dark mx-1"></i>
+                                    </p>
+                                    
+    
+                                </div>
+    
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 col-md-12 col-lg-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="./images/Benard Githinji.jpg" alt="" class="img-fluid rounded-circle">
+                                    <h3 class="card-title py-2">Benard Githinji</h3>
+                                    <p class="card-text">With our contact person by your side, you can rest assured that your real estate needs will be met with expertise and care every step of the way.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark mx-1"></i>
+                                        <i class="bi bi-facebook text-dark mx-1"></i>
+                                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                                        <i class="bi bi-instagram text-dark mx-1"></i>
+                                    </p>
+                                    
+    
+                                </div>
+    
+                            </div>
+
+                        </div>
+                        
+                        <div class="col-12 col-md-12 col-lg-3">
+                            <div class="card text-center">
+                                <div class="card-body">
+                                    <img src="./images/Edward Shollo.jpg" alt="" class="img-fluid rounded-circle">
+                                    <h3 class="card-title py-2">Edward Shollo</h3>
+                                    <p class="card-text">With our contact person by your side, you can rest assured that your real estate needs will be met with expertise and care every step of the way.</p>
+                                    <p class="socials">
+                                        <i class="bi bi-twitter text-dark mx-1"></i>
+                                        <i class="bi bi-facebook text-dark mx-1"></i>
+                                        <i class="bi bi-linkedin text-dark mx-1"></i>
+                                        <i class="bi bi-instagram text-dark mx-1"></i>
+                                    </p>
+                                    
+    
+                                </div>
+    
+                            </div>
+
+                        </div>                             
+                    
+
+            </section>
+
+
+<!--End of Team section-->
+
+
+<!--Contact section-->
+            <section id="contact" class="contact section-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-header text-center pb-5">
+                                <h2>Contact Us</h2>
+                                <p>At Kwao Homes Real Estate Company, our dedicated contact person is the cornerstone of our client experience. With a deep understanding of the local market and a commitment to exceptional service, our contact person serves as a trusted advisor and guide throughout the real estate journey. Whether you're looking to buy, sell, or rent a property, our contact person is readily available to answer your questions, provide expert advice, and ensure a smooth and seamless transaction process. Their personalized attention, professionalism, and attention to detail make them an invaluable resource for clients seeking to navigate the complexities of the real estate market.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="row m-0">
+                        <div class="col-md-12 p-0 pt-4 pb-4">
+                            <form action="#" class="bg-light p-4.m-auto"></form>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" required placeholder="Your Full name">
+
+                                    </div>
+                                     
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" required placeholder="Your Email Here">
+
+                                    </div>
+                                     
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <textarea rows="3" required class="form control" placeholder="Your Query Here"></textarea>
+
+                                    </div>
+                                     
+                                </div>
+
+                                <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+
+                            </div>
+
+                           
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+<!--End of Contact section-->
+
+<!--Footer section-->
+<footer class="bg-dark p-2 text-center">
+    <div class="container">
+        <p class="text-white">All Rights Reserved @Kwaohomes 2024</p>
+
+    </div>
+
+</footer>
+
+<!--End of Footer section-->
+
+
+
+
+        
+
+    <!-- Your additional content here -->
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 </html>
