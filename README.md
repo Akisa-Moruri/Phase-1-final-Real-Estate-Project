@@ -13,7 +13,7 @@
        
 ## Live link
 Deployed Frontend can be accessed here [Blog](github-pages-link)  
-Deployed Backend can be accessed here [Blog](render-link)
+Deployed Backend can be accessed here [Blog](https://phase-1-final-real-estate-project.onrender.com/properties)
 
 
 ## Known Bugs
